@@ -101,19 +101,16 @@ p {
     text-align: center;
     padding: 2rem 0;
     text-align: center; 
-
 }
 
 #about-section p{
     text-align: justify;
-
 }
 
 #pynt{
     background-image: url("img/shellfish-8080937_1280.jpg");
     height: 200px;
     padding: 2rem; 
-
 }
 
 #subscribe{
@@ -125,6 +122,31 @@ p {
 #subscribe form label, #subscribe form input{
     display: block;
     margin: 0 auto;
-
 }
 
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+
+footer nav ul li a{
+    padding: 0.5rem;
+}
+
+#social-icons{
+    padding: 0;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+#social-icons li{
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    width: 70px;
+    height: 70px;
+    padding: 1rem;
+    border-radius: 50%;
+}       
